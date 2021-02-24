@@ -1,0 +1,15 @@
+{
+  "name": "json-schema-to-typescript-cached-name-bug-repro",
+  "version": "1.0.0",
+  "description": "Repro of json-schema-to-typescript bug where previous types names are used",
+  "main": "index.js",
+  "author": "Philippe Serhal <philippe@goodeggs.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "json-schema-to-typescript": "10.1.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
